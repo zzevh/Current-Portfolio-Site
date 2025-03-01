@@ -1,0 +1,22 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Allow: /wp-content/uploads/
+
+
+User-agent: Googlebot
+Disallow: /search/
+Disallow: /cart/
+
+
+User-agent: Googlebot-Image
+Disallow: /private-images/
+
+
+User-agent: AhrefsBot
+Disallow: /
+
+Sitemap: https://bkrupka.com/sitemap.xml

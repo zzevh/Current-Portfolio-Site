@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+body,
+html {
+  @apply font-mono bg-[#0D0D0D] text-white
+}
+
+
+.visit-site-link {
+  display: inline-flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+  margin-top: 34px;
+}
+
+.visit-site-link .arrow-icon {
+  transition: transform 0.3s ease;
+  margin-left: 10px;
+}
+
+.visit-site-link:hover .arrow-icon {
+  transform: translateX(5px);
+}
