@@ -7,6 +7,7 @@ import GetToKnowMePLUSLetsWork from './components/GetToKnowMePLUSLetsWork';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Photography from './pages/Photography';
 import TechStack from './pages/TechStack';
+import Platnosc from './pages/Platnosc';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/photography" element={<Photography />} />
         <Route path="/techstack" element={<TechStack />} />
+        <Route path="/platnosc" element={<Platnosc />} />
         <Route path="/" element={
           <>
             <Hero />
