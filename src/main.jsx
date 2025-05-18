@@ -7,6 +7,8 @@ import Navbar from './components/Navbar.jsx'
 import HeaderShadow from './components/HeaderShadow.jsx'
 import Footer from './components/Footer.jsx'
 
+import FooterShadow from './components/FooterShadow'
+
 import Noise from './reactBitsComponents/Noise'
 
 createRoot(document.getElementById('root')).render(
@@ -24,6 +26,7 @@ createRoot(document.getElementById('root')).render(
       <Navbar />
       <App />
       <Footer />
+      <FooterShadow />
     </div>
   </StrictMode>,
 )
