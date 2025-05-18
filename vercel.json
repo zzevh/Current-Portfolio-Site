@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/platnosc",
+      "destination": "/index.html"
+    }
+  ]
+}
